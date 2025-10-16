@@ -22,7 +22,7 @@ A dynamic web application for calculating the remaining stability of laboratory 
 
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/YOUR_USERNAME/remaining-stability-calculator.git
+   git clone https://github.com/BenjChristiansen/remaining-stability-calculator.git
 Open index.html in a browser.
 
 Add, remove, or reset reagent entries as needed.
@@ -32,7 +32,8 @@ Click Submit to calculate remaining stability hours.
 Click Print to generate a formatted report.
 
 Screenshots
-![Screenshot of app](images/screenshot.png)
+![Screenshot of app](images/stability.png)
+
 
 License
 This project is open-source and free to use.
