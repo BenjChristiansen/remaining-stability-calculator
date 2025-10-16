@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Remaining Stability Calculator</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <h1>Remaining Stability Calculator</h1>
+    <div class="form-wrapper">
+      <div class="image-container">
+        <img alt="lab liquids" src="https://images.unsplash.com/photo-1747302793923-23f66490ae0d?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjN8fGxBQiUyMFJFQUdFTlRTfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=400">
+        <form>
+          <div id="entry-container">
+            <div class="form-fields">
+              <div class="form-group">
+                <label>Select Reagent:</label>
+                <select required class="reagents" name="reagent_select">
+                  <option value="Neoplastine C1 Plus">Neoplastine C1 Plus</option>
+                  <option value="PTT-A">PTT-A</option>
+                  <option value="CaCl2 0.025M">CaCl2 0.025M</option>
+                  <option value="Fibrinogen">Fibrinogen</option>
+                  <option value="Liatest D-DI Buffer">Liatest D-DI Buffer</option>
+                  <option value="Liatest D-DI Latex">Liatest D-DI Latex</option>
+                  <option value="Chromogenic substrate">Chromogenic substrate</option>
+                  <option value="Bovine factor Xa.">Bovine factor Xa.</option>
+                  <option value="Owren-Koller Buffer">Owren-Koller Buffer</option>
+                  <option value="STA-Thrombin 10">STA-Thrombin 10</option>
+                  <option value="Desorb U">Desorb U</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label>Expiration Date:</label>
+                <input required type="date" class="expirationdate" name="expirationdate">
+              </div>
+
+              <div class="form-group">
+                <label>Expiration Time:</label>
+                <input required type="time" min="00:00" max="23:59" class="expirationtime" name="expirationtime">
+              </div>
+
+              <div class="form-group">
+                <label>Volume:</label>
+                <input type="text" class="volume" name="volume">
+              </div>
+
+              <div class="form-group">
+                <label>Hours Remaining:</label>
+                <div class="output"></div>
+              </div>
+
+              <div class="form-group button-group">
+                <div class="button-row">
+                  <button title="Add another reagent" class="add" type="button">+</button>
+                  <button title="Delete this entry" class="minus" type="button"><i class="fa fa-trash"></i></button>
+                  <button title="Reset / Clear All" class="reset" type="button"><i class="fa fa-refresh"></i></button>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-submit">
+              <button class="submit" type="submit">Submit</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="print-container">
+      <button title="Print" class="print" type="button"><i class="fa fa-print"></i></button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
