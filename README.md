@@ -17,6 +17,11 @@ A dynamic web application for calculating the remaining stability of laboratory 
 - **HTML5**: Structure of the form and report  
 - **CSS3**: Styling, responsive layout, and print media query  
 - **JavaScript (ES6)**: Dynamic row manipulation, calculations, and event handling  
+- **Cypress**: End-to-end testing for calculator functionality
+
+### Remaining Stability Calculator Demo
+
+![Calculator Demo](demo.gif)
 
 ## Usage
 
@@ -30,6 +35,25 @@ Add, remove, or reset reagent entries as needed.
 Click Submit to calculate remaining stability hours.
 
 Click Print to generate a formatted report.
+
+## Testing
+
+This project includes Cypress tests to verify core functionality:
+
+Page Load: Ensures the calculator page loads and required elements exist.
+
+Basic Calculation: Fills in reagent, expiration date, and time, then submits to check for visible results.
+
+Edge Cases: Handles past and future expiration dates, ensuring the application responds correctly.
+
+Run tests:
+
+# Open Cypress Test Runner
+npx cypress open
+
+# Or run headless with video recording
+npx cypress run --spec "cypress/e2e/calculator.cy.js"
+
 
 Screenshots
 ![Screenshot of app](images/stability.png)
