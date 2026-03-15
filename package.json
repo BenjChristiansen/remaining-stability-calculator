@@ -1,0 +1,21 @@
+{
+  "name": "remaining-stability-calculator",
+  "version": "1.0.0",
+  "description": "A dynamic web application for calculating the remaining stability of laboratory reagents. This project demonstrates DOM manipulation, event handling, and print-ready report formatting with CSS.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenjChristiansen/remaining-stability-calculator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/BenjChristiansen/remaining-stability-calculator/issues"
+  },
+  "homepage": "https://github.com/BenjChristiansen/remaining-stability-calculator#readme"
+}
