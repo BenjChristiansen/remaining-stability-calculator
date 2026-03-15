@@ -21,7 +21,7 @@ A dynamic web application for calculating the remaining stability of laboratory 
 
 ### Remaining Stability Calculator Demo
 
-![Calculator Demo](assets/demo.gifdemo.gif)
+![Calculator Demo](assets/demo.gif)
 
 ## Usage
 
