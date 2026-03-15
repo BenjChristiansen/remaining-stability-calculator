@@ -21,7 +21,7 @@ A dynamic web application for calculating the remaining stability of laboratory 
 
 ### Remaining Stability Calculator Demo
 
-![Calculator Demo](demo.gif)
+![Calculator Demo](assets/demo.gifdemo.gif)
 
 ## Usage
 
@@ -55,7 +55,7 @@ npx cypress open
 npx cypress run --spec "cypress/e2e/calculator.cy.js"
 
 
-Screenshots
+## Screenshots
 ![Screenshot of app](images/stability.png)
 
 
