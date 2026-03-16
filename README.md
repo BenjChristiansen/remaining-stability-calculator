@@ -2,6 +2,10 @@
 
 A dynamic web application for calculating the remaining stability of laboratory reagents. This project demonstrates DOM manipulation, event handling, and print-ready report formatting with CSS.  
 
+## Live Demo
+
+🔗 [Open the Calculator](https://benjchristiansen.github.io/remaining-stability-calculator/)
+
 ## Features
 
 - **Dynamic Rows**: Add or remove reagent entries using the Add (+) and Delete (trash) buttons.  
