@@ -59,7 +59,7 @@ npx cypress run --spec "cypress/e2e/calculator.cy.js"
 ![Screenshot of app](images/stability.png)
 
 ## Project Case Study
-📄 View the full case study: ![link](assets/Case_Study.pdf)
+📄 ![View the full case study](assets/Case_Study.pdf)
 The case study documents the full development process, including:
 * workflow analysis with MLS staff
 * UI design and iteration
